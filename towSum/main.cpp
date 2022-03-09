@@ -8,6 +8,7 @@
 #include <iostream>
 #include "TwoSum.hpp"
 #include "AddTwoNumbers.hpp"
+#include "LengthOfLongestSubstringSolution.hpp"
 
 using namespace std;
 
@@ -62,11 +63,22 @@ void addTwoNumbers() {
     cout << "******************两数相加******************" << endl;
 }
 
+void lengthOfLongestSubstring() {
+    cout << "******************无重复字符的最长子串******************" << endl;
+    string s = "abcabcbb";
+    cout << "字符串: " << s << endl;
+    int len = LengthOfLongestSubstringSolution().lengthOfLongestSubstring(s);
+    cout << "result: " << len << endl;
+    cout << "******************无重复字符的最长子串******************" << endl;
+}
+
 int main(int argc, const char * argv[]) {
     
 //    twoSum();
     
-    addTwoNumbers();
+//    addTwoNumbers();
+    
+    lengthOfLongestSubstring();
     
     return 0;
 }

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		00893D4D27D8ADEE0034E73D /* LengthOfLongestSubstringSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00893D4B27D8ADEE0034E73D /* LengthOfLongestSubstringSolution.cpp */; };
+		00893D5027D9A18F0034E73D /* FindMedianSortedArraysSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00893D4E27D9A18F0034E73D /* FindMedianSortedArraysSolution.cpp */; };
+		00893D5327D9D1650034E73D /* PintUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00893D5127D9D1650034E73D /* PintUtil.cpp */; };
 		008B65C727D75B23001B4239 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 008B65C627D75B23001B4239 /* main.cpp */; };
 		008B65CF27D76662001B4239 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 008B65CD27D76662001B4239 /* TwoSum.cpp */; };
 		008B65D227D88DC7001B4239 /* AddTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 008B65D027D88DC7001B4239 /* AddTwoNumbers.cpp */; };
@@ -28,6 +30,11 @@
 /* Begin PBXFileReference section */
 		00893D4B27D8ADEE0034E73D /* LengthOfLongestSubstringSolution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LengthOfLongestSubstringSolution.cpp; sourceTree = "<group>"; };
 		00893D4C27D8ADEE0034E73D /* LengthOfLongestSubstringSolution.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LengthOfLongestSubstringSolution.hpp; sourceTree = "<group>"; };
+		00893D4E27D9A18F0034E73D /* FindMedianSortedArraysSolution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindMedianSortedArraysSolution.cpp; sourceTree = "<group>"; };
+		00893D4F27D9A18F0034E73D /* FindMedianSortedArraysSolution.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindMedianSortedArraysSolution.hpp; sourceTree = "<group>"; };
+		00893D5127D9D1650034E73D /* PintUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PintUtil.cpp; sourceTree = "<group>"; };
+		00893D5227D9D1650034E73D /* PintUtil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PintUtil.hpp; sourceTree = "<group>"; };
+		00893D5527D9D2700034E73D /* ConstantDefine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConstantDefine.hpp; sourceTree = "<group>"; };
 		008B65C327D75B23001B4239 /* towSum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = towSum; sourceTree = BUILT_PRODUCTS_DIR; };
 		008B65C627D75B23001B4239 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		008B65CD27D76662001B4239 /* TwoSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
@@ -73,6 +80,11 @@
 				008B65D127D88DC7001B4239 /* AddTwoNumbers.hpp */,
 				00893D4B27D8ADEE0034E73D /* LengthOfLongestSubstringSolution.cpp */,
 				00893D4C27D8ADEE0034E73D /* LengthOfLongestSubstringSolution.hpp */,
+				00893D4E27D9A18F0034E73D /* FindMedianSortedArraysSolution.cpp */,
+				00893D4F27D9A18F0034E73D /* FindMedianSortedArraysSolution.hpp */,
+				00893D5127D9D1650034E73D /* PintUtil.cpp */,
+				00893D5227D9D1650034E73D /* PintUtil.hpp */,
+				00893D5527D9D2700034E73D /* ConstantDefine.hpp */,
 			);
 			path = towSum;
 			sourceTree = "<group>";
@@ -138,6 +150,8 @@
 				008B65CF27D76662001B4239 /* TwoSum.cpp in Sources */,
 				00893D4D27D8ADEE0034E73D /* LengthOfLongestSubstringSolution.cpp in Sources */,
 				008B65C727D75B23001B4239 /* main.cpp in Sources */,
+				00893D5327D9D1650034E73D /* PintUtil.cpp in Sources */,
+				00893D5027D9A18F0034E73D /* FindMedianSortedArraysSolution.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

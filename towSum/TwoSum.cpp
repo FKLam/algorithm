@@ -24,7 +24,7 @@
 vector<int> TwoSumSolution::twoSum(vector<int>& nums, int target) {
     map<int, int> hashtable;
     for (int index = 0; index < nums.size(); index++) {
-        cout << "index:" << index << " " << nums[index] << endl;
+        cout << "index:" << index << "->" << nums[index] << endl;
         auto res = hashtable.find(target - nums[index]);
         if (res != hashtable.end()) {
             return {res->second, index};

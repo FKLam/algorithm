@@ -43,19 +43,3 @@ ListNode *AddTwoNumbersSolution::addTwoNumbers(ListNode *l1, ListNode *l2) {
     }
     return header;
 }
-
-void AddTwoNumbersSolution::printListNode(ListNode *listNode) {
-    if (listNode == nullptr) {
-        cout << "listNode is empty" << endl;
-        return;
-    }
-    cout << "listNode:";
-    while (listNode != nullptr) {
-        cout << listNode->val;
-        listNode = listNode->next;
-        if (listNode != nullptr) {
-            cout << "->";
-        }
-    }
-    cout << endl;
-}

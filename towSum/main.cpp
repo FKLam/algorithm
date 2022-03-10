@@ -87,7 +87,7 @@ int main(int argc, const char * argv[]) {
     
 //    lengthOfLongestSubstring();
     
-//    findMedianSortedArrays();
+    findMedianSortedArrays();
     
     return 0;
 }

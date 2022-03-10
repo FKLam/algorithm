@@ -30,7 +30,7 @@ double FindMedianSortedArraysSolution::getKthElement(const vector<int> &nums1, c
             return min(nums1[index1], nums2[index2]);
         }
         int indexNew1 = min(index1 + k / 2 - 1, size1 - 1);
-        int indexNew2 = min(index1 + k / 2 - 1, size2 - 1);
+        int indexNew2 = min(index2 + k / 2 - 1, size2 - 1);
         int val1 = nums1[indexNew1];
         int val2 = nums2[indexNew2];
         if (val1 <= val2) {

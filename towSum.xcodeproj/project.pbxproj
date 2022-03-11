@@ -11,6 +11,7 @@
 		00893D5027D9A18F0034E73D /* FindMedianSortedArraysSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00893D4E27D9A18F0034E73D /* FindMedianSortedArraysSolution.cpp */; };
 		00893D5327D9D1650034E73D /* PintUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00893D5127D9D1650034E73D /* PintUtil.cpp */; };
 		00893D9527DAFC0D0034E73D /* LongestPalindromeSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00893D9327DAFC0D0034E73D /* LongestPalindromeSolution.cpp */; };
+		00893D9827DB3FAA0034E73D /* CovertSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00893D9627DB3FAA0034E73D /* CovertSolution.cpp */; };
 		008B65C727D75B23001B4239 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 008B65C627D75B23001B4239 /* main.cpp */; };
 		008B65CF27D76662001B4239 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 008B65CD27D76662001B4239 /* TwoSum.cpp */; };
 		008B65D227D88DC7001B4239 /* AddTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 008B65D027D88DC7001B4239 /* AddTwoNumbers.cpp */; };
@@ -38,6 +39,8 @@
 		00893D5527D9D2700034E73D /* ConstantDefine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConstantDefine.hpp; sourceTree = "<group>"; };
 		00893D9327DAFC0D0034E73D /* LongestPalindromeSolution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestPalindromeSolution.cpp; sourceTree = "<group>"; };
 		00893D9427DAFC0D0034E73D /* LongestPalindromeSolution.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestPalindromeSolution.hpp; sourceTree = "<group>"; };
+		00893D9627DB3FAA0034E73D /* CovertSolution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CovertSolution.cpp; sourceTree = "<group>"; };
+		00893D9727DB3FAA0034E73D /* CovertSolution.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CovertSolution.hpp; sourceTree = "<group>"; };
 		008B65C327D75B23001B4239 /* towSum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = towSum; sourceTree = BUILT_PRODUCTS_DIR; };
 		008B65C627D75B23001B4239 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		008B65CD27D76662001B4239 /* TwoSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 				00893D5527D9D2700034E73D /* ConstantDefine.hpp */,
 				00893D9327DAFC0D0034E73D /* LongestPalindromeSolution.cpp */,
 				00893D9427DAFC0D0034E73D /* LongestPalindromeSolution.hpp */,
+				00893D9627DB3FAA0034E73D /* CovertSolution.cpp */,
+				00893D9727DB3FAA0034E73D /* CovertSolution.hpp */,
 			);
 			path = towSum;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				008B65D227D88DC7001B4239 /* AddTwoNumbers.cpp in Sources */,
 				008B65CF27D76662001B4239 /* TwoSum.cpp in Sources */,
 				00893D4D27D8ADEE0034E73D /* LengthOfLongestSubstringSolution.cpp in Sources */,
+				00893D9827DB3FAA0034E73D /* CovertSolution.cpp in Sources */,
 				008B65C727D75B23001B4239 /* main.cpp in Sources */,
 				00893D5327D9D1650034E73D /* PintUtil.cpp in Sources */,
 				00893D9527DAFC0D0034E73D /* LongestPalindromeSolution.cpp in Sources */,

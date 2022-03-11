@@ -11,6 +11,7 @@
 #include "AddTwoNumbers.hpp"
 #include "LengthOfLongestSubstringSolution.hpp"
 #include "FindMedianSortedArraysSolution.hpp"
+#include "LongestPalindromeSolution.hpp"
 
 using namespace std;
 
@@ -79,6 +80,15 @@ void findMedianSortedArrays() {
     cout << "******************寻找两个正序数组的中位数******************" << endl;
 }
 
+void longestPalindrome() {
+    cout << "******************最长回文子串******************" << endl;
+    string s = "babad";
+    cout << "s: " << s << endl;
+    string result = LongestPalindromeSolution().longestPalindrome(s);
+    cout << "result: " << result << endl;
+    cout << "******************最长回文子串******************" << endl;
+}
+
 int main(int argc, const char * argv[]) {
     
 //    twoSum();
@@ -87,7 +97,9 @@ int main(int argc, const char * argv[]) {
     
 //    lengthOfLongestSubstring();
     
-    findMedianSortedArrays();
+//    findMedianSortedArrays();
+    
+    longestPalindrome();
     
     return 0;
 }
